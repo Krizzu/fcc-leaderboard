@@ -1,0 +1,33 @@
+
+
+a {
+	text-decoration: none;
+	
+	display: table;
+
+	color: white;
+
+	&:hover {
+		text-decoration: underline
+	}
+
+	span {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	img {
+		display: inline-block;
+		max-width: 40px;
+		width: 100%;
+		margin-right: 5px;
+		border-radius: 5px;
+		display: inline-block;
+		border: 2px solid #444;
+	}
+}
+
+.tbodies {
+	background-color: #5086A5;
+	color: white;
+}

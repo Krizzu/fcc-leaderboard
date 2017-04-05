@@ -1,0 +1,20 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+	border: 1px solid #333;
+	text-align: left;
+}
+
+.toggler {
+	cursor: pointer
+}
+
+.theads {
+	background-color: #3C9E64;
+	color: white;
+	font-weight: bold;
+}
